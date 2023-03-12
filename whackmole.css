@@ -45,6 +45,7 @@
     border: 2px solid saddlebrown;
     border-radius: 40%;
     font-size: 150px;
+    cursor: crosshair;
 }
 
 .one{
@@ -69,4 +70,21 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start{
+    background-color: white;
+    color: green;
+    font-size: 50px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: none;
+    padding: 30px;
+    cursor: pointer;
 }
